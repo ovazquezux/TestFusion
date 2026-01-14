@@ -1,13 +1,13 @@
 import * as React from "react";
+import MuiButton from "@mui/material/Button";
+import type { ButtonProps as MuiButtonProps } from "@mui/material/Button";
 
-export type ButtonProps = {
-  children: React.ReactNode;
-};
+export type ButtonProps = MuiButtonProps;
 
-export function Button({ children }: ButtonProps) {
+export function Button({ children, variant = "contained", ...props }: ButtonProps) {
   return (
-    <button type="button">
+    <MuiButton variant={variant} {...props}>
       {children}
-    </button>
+    </MuiButton>
   );
 }
