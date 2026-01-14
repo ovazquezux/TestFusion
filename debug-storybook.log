@@ -1,0 +1,29 @@
+[11:41:06.117] [INFO] storybook v10.1.11
+[11:41:07.936] [PROMPT] Port 6006 is not available. 
+Would you like to run Storybook on port 6007 instead? {"choice":true}
+[11:41:08.090] [DEBUG] Getting package.json info for /Users/ovazquez/Figma MCP /TestFusion/fusion-button/package.json...
+[11:41:08.837] [INFO] Using implicit CSS loaders
+[11:41:08.951] [INFO] Using SWC as compiler
+[11:41:08.955] [INFO] Using default Webpack5 setup
+[11:41:08.961] [INFO] Starting...
+[11:41:09.017] [DEBUG] Starting preview..
+[11:41:09.023] [INFO] Using implicit CSS loaders
+[11:41:09.030] [INFO] Using SWC as compiler
+[11:41:09.032] [INFO] Using default Webpack5 setup
+[11:41:09.275] [DEBUG] Using tsconfig paths for react-docgen
+[11:41:10.432] [ERROR] Failed to build the preview
+[11:41:10.436] [WARN] Force closed preview build
+[11:41:10.436] [ERROR] [38;2;241;97;97mSB_BUILDER-WEBPACK5_0003 (WebpackCompilationError): There were problems when compiling your code with Webpack.
+Run Storybook with --debug-webpack for more information.[39m
+    at starter (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/@storybook/builder-webpack5/dist/index.js:799:11)
+    at starter.next (<anonymous>)
+    at Module.start (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/@storybook/builder-webpack5/dist/index.js:857:34)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async storybookDevServer (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/storybook/dist/core-server/index.js:6806:82)
+    at async buildOrThrow (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/storybook/dist/core-server/index.js:5555:12)
+    at async buildDevStandalone (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/storybook/dist/core-server/index.js:7208:66)
+    at async withTelemetry (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/storybook/dist/_node-chunks/chunk-2372JZ52.js:209:12)
+    at async dev (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/storybook/dist/bin/core.js:2734:3)
+    at async _Command.<anonymous> (file:///Users/ovazquez/Figma%20MCP%20/TestFusion/fusion-button/node_modules/storybook/dist/bin/core.js:2801:92)
+[11:41:10.437] [WARN] Broken build, fix the error above.
+You may need to refresh the browser.
