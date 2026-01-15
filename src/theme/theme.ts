@@ -63,6 +63,29 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiFormControl: {
+      styleOverrides: {
+        root: {
+          '&.MuiTextField-root': {
+            '& .MuiFormLabel-root': {
+              position: 'relative',
+              transform: 'none',
+              marginBottom: '6px',
+              fontSize: '12px',
+              lineHeight: '12px',
+              letterSpacing: '0.15px',
+              fontWeight: 400,
+            },
+            '& .MuiFormLabel-root.MuiInputLabel-sizeSmall': {
+              marginBottom: '4.5px',
+            },
+            '& .MuiInputBase-root.MuiInput-sizeSmall .MuiFormLabel-root': {
+              marginBottom: '4.5px',
+            },
+          },
+        },
+      },
+    },
     MuiButton: {
       styleOverrides: {
         root: {
@@ -350,10 +373,17 @@ const theme = createTheme({
             lineHeight: '12px',
             letterSpacing: '0.15px',
             color: 'rgba(0, 0, 0, 0.70)',
-            transform: 'translate(0, -9px) scale(1)',
+            position: 'relative',
+            transform: 'none',
+            marginBottom: '6px',
+          },
+          '& .MuiInputLabel-root.MuiInputLabel-sizeSmall': {
+            marginBottom: '4.5px',
           },
           '& .MuiInputLabel-shrink': {
-            transform: 'translate(0, -9px) scale(0.75)',
+            position: 'relative',
+            transform: 'none',
+            marginBottom: '6px',
           },
           '& .MuiInputBase-input::placeholder': {
             color: 'rgba(0, 0, 0, 0.70)',
