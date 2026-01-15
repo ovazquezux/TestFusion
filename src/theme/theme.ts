@@ -126,7 +126,7 @@ const theme = createTheme({
           padding: '16px 12px',
         },
         inputSizeSmall: {
-          padding: '8px 12px',
+          padding: '8px 12px !important',
         },
       },
     },
@@ -170,7 +170,7 @@ const theme = createTheme({
           padding: '16px 12px',
         },
         inputSizeSmall: {
-          padding: '12px 12px',
+          padding: '12px 12px !important',
         },
       },
     },
@@ -200,6 +200,10 @@ const theme = createTheme({
         },
         input: {
           padding: 0,
+          marginTop: '6px',
+        },
+        inputSizeSmall: {
+          marginTop: '4.5px',
         },
       },
     },
