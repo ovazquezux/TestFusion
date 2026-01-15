@@ -1,2 +1,2 @@
 export { Button } from './Button';
-export type { ButtonProps, ButtonColor } from './Button';
+export { TextField } from './TextField';

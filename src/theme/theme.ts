@@ -51,6 +51,9 @@ const theme = createTheme({
       dark: '#0D4A0D',
       contrastText: '#FFFFFF',
     },
+    error: {
+      main: '#B7332A',
+    },
   },
   typography: {
     fontFamily: 'Roboto Flex, -apple-system, Roboto, Helvetica, sans-serif',

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Roboto_Flex } from "next/font/google";
 import "./globals.css";
-import { ThemeProvider } from "@/theme/ThemeProvider";
+import { Providers } from "./providers";
 
 const robotoFlex = Roboto_Flex({
   subsets: ["latin"],
@@ -22,9 +22,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={robotoFlex.variable}>
-        <ThemeProvider>
+        <Providers>
           {children}
-        </ThemeProvider>
+        </Providers>
       </body>
     </html>
   );
