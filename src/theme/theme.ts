@@ -200,10 +200,6 @@ const theme = createTheme({
         },
         input: {
           padding: 0,
-          marginTop: '6px',
-        },
-        inputSizeSmall: {
-          marginTop: '4.5px',
         },
       },
     },
