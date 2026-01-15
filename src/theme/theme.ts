@@ -405,6 +405,7 @@ const theme = createTheme({
     MuiOutlinedInput: {
       styleOverrides: {
         root: {
+          marginTop: '0 !important',
           '& .MuiOutlinedInput-notchedOutline': {
             borderColor: 'rgba(0, 0, 0, 0.23)',
             borderRadius: '8px',
@@ -440,6 +441,7 @@ const theme = createTheme({
     MuiFilledInput: {
       styleOverrides: {
         root: {
+          marginTop: '0 !important',
           backgroundColor: 'rgba(0, 0, 0, 0.06)',
           borderRadius: '8px 8px 0px 0px',
           '&:hover': {
@@ -487,6 +489,7 @@ const theme = createTheme({
     MuiInput: {
       styleOverrides: {
         root: {
+          marginTop: '0 !important',
           '& .MuiInput-underline::before': {
             borderBottomColor: 'rgba(0, 0, 0, 0.42)',
           },
